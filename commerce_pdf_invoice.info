@@ -1,0 +1,8 @@
+name = PDF Invoice
+description = "Adds a invoice view, which can be exported as a PDF."
+dependencies[] = commerce_order
+dependencies[] = views_pdf
+dependencies[] = views_view_field
+package = Commerce
+core = 7.x
+
