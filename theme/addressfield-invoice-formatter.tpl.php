@@ -8,4 +8,6 @@
   )));
 ?>
 <br/>
-<?php print "{$address['locality']}, {$address['administrative_area']} {$address['postal_code']}";
+<?php print "{$address['locality']}, {$address['administrative_area']} {$address['postal_code']}";?>
+<br/>
+<?php print $address['country'];
